@@ -2,10 +2,11 @@
   "name": "default",
   "type": "mysql",
   "host": "localhost",
-  "port": 3306,
-  "username": "test",
-  "password": "test",
-  "database": "test",
+  "port": 13306,
+  "username": "root",
+  "password": "test1234",
+
+  "database": "typeorm_test",
   "synchronize": true,
   "logging": false,
   "entities": [
@@ -21,5 +22,6 @@
     "entitiesDir": "src/entity",
     "migrationsDir": "src/migration",
     "subscribersDir": "src/subscriber"
-  }
+  },
+  "migrationsTableName": "typeorm_migrations"
 }
